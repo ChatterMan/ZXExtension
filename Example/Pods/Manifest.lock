@@ -1,0 +1,16 @@
+PODS:
+  - ZXExtension (0.1.0)
+
+DEPENDENCIES:
+  - ZXExtension (from `../`)
+
+EXTERNAL SOURCES:
+  ZXExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXExtension: 770a148fa0db579fedee34de276f5605048a6645
+
+PODFILE CHECKSUM: d3963ade5c3537e73802a302971007828983b4a5
+
+COCOAPODS: 1.9.1

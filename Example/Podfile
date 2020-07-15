@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'ZXExtension_Example' do
-  pod 'ZXExtension', :path => '../'
+  pod 'ZXExtension', :path => '../ZXExtension.podspec'
 
   target 'ZXExtension_Tests' do
     inherit! :search_paths
