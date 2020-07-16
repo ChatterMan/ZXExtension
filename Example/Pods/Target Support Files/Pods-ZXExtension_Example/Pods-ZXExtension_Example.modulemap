@@ -1,6 +1,0 @@
-framework module Pods_ZXExtension_Example {
-  umbrella header "Pods-ZXExtension_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
