@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXExtension'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of ZXExtension.'
   s.license          = 'MIT'
 # This description is used to generate tags and improve search results.
