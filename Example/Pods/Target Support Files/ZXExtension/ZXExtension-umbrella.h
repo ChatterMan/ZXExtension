@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZXExtension.h"
 
 FOUNDATION_EXPORT double ZXExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZXExtensionVersionString[];
