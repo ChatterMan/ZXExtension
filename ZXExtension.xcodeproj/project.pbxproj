@@ -7,10 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500C4AA024C04CAE00FCC24E /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4A9E24C04CAE00FCC24E /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AA124C04CAE00FCC24E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4A9F24C04CAE00FCC24E /* UIColor+Extension.m */; };
+		500C4AA424C04D0B00FCC24E /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4AA224C04D0B00FCC24E /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AA524C04D0B00FCC24E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4AA324C04D0B00FCC24E /* UIImage+Extension.m */; };
+		500C4AA824C04E4000FCC24E /* UIImageView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4AA624C04E4000FCC24E /* UIImageView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AA924C04E4000FCC24E /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4AA724C04E4000FCC24E /* UIImageView+Extension.m */; };
+		500C4AAC24C04ECD00FCC24E /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4AAA24C04ECD00FCC24E /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AAD24C04ECD00FCC24E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4AAB24C04ECD00FCC24E /* UIView+Extension.m */; };
+		500C4AB024C04FED00FCC24E /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4AAE24C04FED00FCC24E /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AB124C04FED00FCC24E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4AAF24C04FED00FCC24E /* NSString+Extension.m */; };
+		500C4AB424C050E400FCC24E /* UIViewController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C4AB224C050E400FCC24E /* UIViewController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500C4AB524C050E400FCC24E /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4AB324C050E400FCC24E /* UIViewController+Extension.m */; };
 		504D2D6B24C0253500E0247D /* ZXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 504D2D6924C0253500E0247D /* ZXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500C4A9E24C04CAE00FCC24E /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		500C4A9F24C04CAE00FCC24E /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		500C4AA224C04D0B00FCC24E /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		500C4AA324C04D0B00FCC24E /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		500C4AA624C04E4000FCC24E /* UIImageView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		500C4AA724C04E4000FCC24E /* UIImageView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		500C4AAA24C04ECD00FCC24E /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		500C4AAB24C04ECD00FCC24E /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		500C4AAE24C04FED00FCC24E /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		500C4AAF24C04FED00FCC24E /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		500C4AB224C050E400FCC24E /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		500C4AB324C050E400FCC24E /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
 		504D2D6624C0253500E0247D /* ZXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		504D2D6924C0253500E0247D /* ZXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXExtension.h; sourceTree = "<group>"; };
 		504D2D6A24C0253500E0247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +72,18 @@
 			children = (
 				504D2D6924C0253500E0247D /* ZXExtension.h */,
 				504D2D6A24C0253500E0247D /* Info.plist */,
+				500C4A9E24C04CAE00FCC24E /* UIColor+Extension.h */,
+				500C4A9F24C04CAE00FCC24E /* UIColor+Extension.m */,
+				500C4AA224C04D0B00FCC24E /* UIImage+Extension.h */,
+				500C4AA324C04D0B00FCC24E /* UIImage+Extension.m */,
+				500C4AA624C04E4000FCC24E /* UIImageView+Extension.h */,
+				500C4AA724C04E4000FCC24E /* UIImageView+Extension.m */,
+				500C4AAA24C04ECD00FCC24E /* UIView+Extension.h */,
+				500C4AAB24C04ECD00FCC24E /* UIView+Extension.m */,
+				500C4AAE24C04FED00FCC24E /* NSString+Extension.h */,
+				500C4AAF24C04FED00FCC24E /* NSString+Extension.m */,
+				500C4AB224C050E400FCC24E /* UIViewController+Extension.h */,
+				500C4AB324C050E400FCC24E /* UIViewController+Extension.m */,
 			);
 			path = ZXExtension;
 			sourceTree = "<group>";
@@ -59,6 +95,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500C4AB024C04FED00FCC24E /* NSString+Extension.h in Headers */,
+				500C4AB424C050E400FCC24E /* UIViewController+Extension.h in Headers */,
+				500C4AAC24C04ECD00FCC24E /* UIView+Extension.h in Headers */,
+				500C4AA424C04D0B00FCC24E /* UIImage+Extension.h in Headers */,
+				500C4AA824C04E4000FCC24E /* UIImageView+Extension.h in Headers */,
+				500C4AA024C04CAE00FCC24E /* UIColor+Extension.h in Headers */,
 				504D2D6B24C0253500E0247D /* ZXExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500C4AB524C050E400FCC24E /* UIViewController+Extension.m in Sources */,
+				500C4AB124C04FED00FCC24E /* NSString+Extension.m in Sources */,
+				500C4AA124C04CAE00FCC24E /* UIColor+Extension.m in Sources */,
+				500C4AA924C04E4000FCC24E /* UIImageView+Extension.m in Sources */,
+				500C4AAD24C04ECD00FCC24E /* UIView+Extension.m in Sources */,
+				500C4AA524C04D0B00FCC24E /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
