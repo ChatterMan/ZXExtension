@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <ZXExtension/ZXExtension.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIImage *imge = [UIImage new];
+        
+    
+    
+    
 }
 
 

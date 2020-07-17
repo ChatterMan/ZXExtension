@@ -10,7 +10,7 @@
 #import <Photos/Photos.h>//相册 8.0版本之后可使用
 @implementation UIImageView (Extension)
 
-- (void)imageWithPHAsset:(id)asset {
+- (void)zx_imageWithPHAsset:(id)asset {
     
     if ([asset isKindOfClass:[PHAsset class]]) {
         

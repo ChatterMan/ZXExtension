@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (Extension)
 
-+ (UIColor *)hexStringToColor:(NSString *)string;
-
-+ (UIColor *)randomColor;
-
++ (UIColor *)zx_colorWithHexString:(NSString *)hexStr alpha:(CGFloat)alpha;
++ (UIColor *)zx_colorWithHexString:(NSString *)hexStr;
++ (UIColor *)zx_randomColor;
++ (UIColor *)zx_gradientColorWithColors:(NSArray *)colors locations:(NSArray *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint size:(CGSize)size;
 @end
 
 NS_ASSUME_NONNULL_END

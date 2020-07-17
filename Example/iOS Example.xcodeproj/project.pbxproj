@@ -14,7 +14,7 @@
 		500C4A8D24C026F700FCC24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500C4A8C24C026F700FCC24E /* Assets.xcassets */; };
 		500C4A9024C026F700FCC24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500C4A8E24C026F700FCC24E /* LaunchScreen.storyboard */; };
 		500C4A9324C026F700FCC24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C4A9224C026F700FCC24E /* main.m */; };
-		500C4A9B24C0274300FCC24E /* ZXExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500C4A9A24C0274300FCC24E /* ZXExtension.framework */; };
+		501106CF24C13FCB007AA3B9 /* ZXExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501106CE24C13FCB007AA3B9 /* ZXExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +31,7 @@
 		500C4A9124C026F700FCC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500C4A9224C026F700FCC24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		500C4A9A24C0274300FCC24E /* ZXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501106CE24C13FCB007AA3B9 /* ZXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500C4A9B24C0274300FCC24E /* ZXExtension.framework in Frameworks */,
+				501106CF24C13FCB007AA3B9 /* ZXExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +84,7 @@
 		500C4A9924C0274300FCC24E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				501106CE24C13FCB007AA3B9 /* ZXExtension.framework */,
 				500C4A9A24C0274300FCC24E /* ZXExtension.framework */,
 			);
 			name = Frameworks;

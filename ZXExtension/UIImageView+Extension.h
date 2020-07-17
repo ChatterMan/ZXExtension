@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImageView (Extension)
 
-- (void)imageWithPHAsset:(id)asset;
+- (void)zx_imageWithPHAsset:(id)asset;
 
 @end
 
