@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)zx_colorWithHexString:(NSString *)hexStr;
 + (UIColor *)zx_randomColor;
 + (UIColor *)zx_gradientColorWithColors:(NSArray *)colors locations:(NSArray *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint size:(CGSize)size;
+
 @end
 
 NS_ASSUME_NONNULL_END
