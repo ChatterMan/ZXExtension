@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXExtension'
-  s.version          = '0.0.4'
-  s.summary          = 'A short description of ZXExtension.'
+  s.version          = '0.0.5'
+  s.summary          = 'A short description of ZXExtension. '
   s.license          = 'MIT'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
- s.source_files = 'ZXExtension/**/*'
+  s.source_files = 'ZXExtension/**/*'
+#  s.source_files = 'ZXExtension/ZXExtension.h'
   # s.resource_bundles = {
   #   'ZXExtension' => ['ZXExtension/Assets/*.png']
   # }

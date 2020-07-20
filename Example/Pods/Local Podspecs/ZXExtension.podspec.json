@@ -1,0 +1,22 @@
+{
+  "name": "ZXExtension",
+  "version": "0.1.0",
+  "summary": "A short description of ZXExtension.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChatterMan/ZXExtension",
+  "authors": {
+    "352353818@qq.com": "zx@qnvip.com"
+  },
+  "source": {
+    "git": "https://github.com/ChatterMan/ZXExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZXExtension/**/*"
+}

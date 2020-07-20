@@ -1,0 +1,16 @@
+PODS:
+  - ZXExtension (0.1.0)
+
+DEPENDENCIES:
+  - ZXExtension (from `../ZXExtension.podspec`)
+
+EXTERNAL SOURCES:
+  ZXExtension:
+    :path: "../ZXExtension.podspec"
+
+SPEC CHECKSUMS:
+  ZXExtension: 33686ae748b4fad2ffe10175b8e5ca53e610a987
+
+PODFILE CHECKSUM: cefa54a9a6be93261ab3e8809ad95e8083c4f1e2
+
+COCOAPODS: 1.9.3
