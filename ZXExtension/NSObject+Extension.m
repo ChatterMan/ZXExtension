@@ -28,4 +28,40 @@
     method_exchangeImplementations(originalMethod, swizzledMethod);
 }
 
++ (NSInteger)compareVersion1:(NSString *)version1 version2:(NSString *)version2 {
+    
+    if (version1 == version2) {
+        NSLog(@"version1:%@ == version2:%@",version1,version2);
+        return 0;
+    }
+    if ([version1 compare:version2 options:NSNumericSearch] == NSOrderedDescending)
+    {
+        NSLog(@"%@ is bigger",version1);
+        return 1;
+    } else {
+        NSLog(@"%@ is bigger",version2);
+        return 2;
+        
+    }
+    
+}
+
+- (NSInteger)compareVersion1:(NSString *)version1 version2:(NSString *)version2 {
+    
+    if (version1 == version2) {
+        NSLog(@"version1:%@ == version2:%@",version1,version2);
+        return 0;
+    }
+    if ([version1 compare:version2 options:NSNumericSearch] == NSOrderedDescending)
+    {
+        NSLog(@"%@ is bigger",version1);
+        return 1;
+    } else {
+        NSLog(@"%@ is bigger",version2);
+        return 2;
+        
+    }
+    
+}
+
 @end

@@ -20,6 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGFloat height;
 
+/**
+ 移除当前所有 subviews
+ */
+- (void)zx_removeAllSubviews;
+
 @end
 
 NS_ASSUME_NONNULL_END

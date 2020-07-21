@@ -43,4 +43,8 @@
     self.frame = frame;
 }
 
+- (void)zx_removeAllSubviews {
+    [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+}
+
 @end
