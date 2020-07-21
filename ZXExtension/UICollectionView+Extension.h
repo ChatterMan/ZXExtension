@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  获取某个view在collectionView内对应的indexPath
  *
- *  例如某个view是某个cell里的subview，在这个view的点击事件回调方法里，就能通过`qmui_indexPathForItemAtView:`获取被点击的view所处的cell的indexPath
+ *  例如某个view是某个cell里的subview，在这个view的点击事件回调方法里，就能通过`zx_indexPathForItemAtView:`获取被点击的view所处的cell的indexPath
  *
  *  @warning 注意返回的indexPath有可能为nil，要做保护。
  */

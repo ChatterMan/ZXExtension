@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param object 要合并的多个数组
  @return 合并完的结果
  */
-+ (instancetype)qmui_arrayWithObjects:(ObjectType)object, ...;
++ (instancetype)zx_arrayWithObjects:(ObjectType)object, ...;
 @end
 
 NS_ASSUME_NONNULL_END

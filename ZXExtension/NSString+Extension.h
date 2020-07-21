@@ -21,6 +21,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取拼音首字母(传入汉字字符串, 返回大写拼音首字母)
 + (NSString *)FirstCharactor:(NSString *)pString;
 
+/// 去掉整段文字内的所有空白字符（包括换行符）
+@property(readonly, copy) NSString *zx_trimAllWhiteSpace;
+
+/// 把该字符串转换为对应的 md5
+@property(readonly, copy) NSString *zx_md5;
+
 @end
 
 NS_ASSUME_NONNULL_END

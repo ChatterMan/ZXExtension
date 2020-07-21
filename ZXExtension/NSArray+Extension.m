@@ -9,7 +9,7 @@
 
 @implementation NSArray (Extension)
 
-+ (instancetype)qmui_arrayWithObjects:(id)object, ... {
++ (instancetype)zx_arrayWithObjects:(id)object, ... {
     void (^addObjectToArrayBlock)(NSMutableArray *array, id obj) = ^void(NSMutableArray *array, id obj) {
         if ([obj isKindOfClass:[NSArray class]]) {
             [array addObjectsFromArray:obj];
