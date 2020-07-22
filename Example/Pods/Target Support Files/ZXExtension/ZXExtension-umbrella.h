@@ -10,12 +10,17 @@
 #endif
 #endif
 
+#import "NSArray+Extension.h"
 #import "NSObject+Extension.h"
 #import "NSObject+Macro.h"
+#import "NSParagraphStyle+Extension.h"
 #import "NSString+Extension.h"
+#import "NSURL+Extension.h"
+#import "UICollectionView+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIImage+Extension.h"
 #import "UIImageView+Extension.h"
+#import "UITableView+Extension.h"
 #import "UIView+Extension.h"
 #import "UIViewController+Extension.h"
 #import "ZXExtension.h"

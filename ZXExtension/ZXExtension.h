@@ -19,6 +19,7 @@
     #import <ZXExtension/NSArray+Extension.h>
     #import <ZXExtension/NSObject+Extension.h>
     #import <ZXExtension/NSObject+Macro.h>
+    #import <ZXExtension/NSParagraphStyle+Extension.h>
     #import <ZXExtension/NSString+Extension.h>
     #import <ZXExtension/NSURL+Extension.h>
     #import <ZXExtension/UICollectionView+Extension.h>
@@ -34,6 +35,7 @@
     #import "NSArray+Extension.h"
     #import "NSObject+Extension.h"
     #import "NSObject+Macro.h"
+    #import "NSParagraphStyle+Extension.h"
     #import "NSString+Extension.h"
     #import "NSURL+Extension.h"
     #import "UICollectionView+Extension.h"
