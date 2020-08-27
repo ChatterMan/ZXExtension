@@ -29,6 +29,7 @@
     #import <ZXExtension/UITableView+Extension.h>
     #import <ZXExtension/UIView+Extension.h>
     #import <ZXExtension/UIViewController+Extension.h>
+    #import <ZXExtension/NSObject+JSON.h>
 
 #else
     
@@ -45,6 +46,7 @@
     #import "UITableView+Extension.h"
     #import "UIView+Extension.h"
     #import "UIViewController+Extension.h"
+    #import "NSObject+JSON.h"
 
 #endif /* __has_include */
 
