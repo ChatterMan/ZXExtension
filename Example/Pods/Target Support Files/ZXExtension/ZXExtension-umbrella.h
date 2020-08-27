@@ -12,6 +12,7 @@
 
 #import "NSArray+Extension.h"
 #import "NSObject+Extension.h"
+#import "NSObject+JSON.h"
 #import "NSObject+Macro.h"
 #import "NSParagraphStyle+Extension.h"
 #import "NSString+Extension.h"
