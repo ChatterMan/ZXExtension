@@ -91,6 +91,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 状态栏高度
 - (CGFloat)zx_statusBarHight;
+/// 获取Window
+- (UIWindow *)zx_keyWindow;
+/// 安全范围区域
+- (UIEdgeInsets)zx_safeAreaInserts;
 
 @end
 

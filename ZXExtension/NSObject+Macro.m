@@ -20,4 +20,27 @@
     }
     return statusBarHeight;
 }
+
+- (UIWindow *)zx_keyWindow {
+    if (@available(iOS 13.0, *)) {
+        return [UIApplication sharedApplication].windows.firstObject;
+    }
+    else {
+        return [UIApplication sharedApplication].keyWindow;
+    }
+}
+
+- (UIEdgeInsets)zx_safeAreaInserts {
+    UIWindow *window = [self zx_keyWindow];
+    
+    if (@available(iOS 11.0, *)) {
+        return window.safeAreaInsets;
+    } else {
+        return UIEdgeInsetsMake(0, 0, 0, 0);
+    }
+}
+
+
+
+
 @end
