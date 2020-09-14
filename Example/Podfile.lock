@@ -1,5 +1,5 @@
 PODS:
-  - ZXExtension (0.1.1)
+  - ZXExtension (0.1.2)
 
 DEPENDENCIES:
   - ZXExtension (from `../ZXExtension.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../ZXExtension.podspec"
 
 SPEC CHECKSUMS:
-  ZXExtension: 56178a60c45919a0e7bf754c337c600edef8dd75
+  ZXExtension: 52346a5adffa8d75a8cb53510706a31cb296acd6
 
 PODFILE CHECKSUM: cefa54a9a6be93261ab3e8809ad95e8083c4f1e2
 

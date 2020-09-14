@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (Extension)
-
+/// JSON字符串转化为字典
 + (NSDictionary *)zx_dictionaryWithJsonString:(NSString *)jsonString;
 
 @end

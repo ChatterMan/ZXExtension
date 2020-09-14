@@ -17,6 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
  @return 合并完的结果
  */
 + (instancetype)zx_arrayWithObjects:(ObjectType)object, ...;
+
+
+/// JSON字符串转化为数组
++ (NSArray *)zx_arrayWithJsonString:(NSString *)jsonString;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

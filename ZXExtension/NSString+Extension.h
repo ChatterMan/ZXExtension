@@ -30,6 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 字典转json字符串方法
 + (NSString *)zx_jsonStringWithDictionary:(NSDictionary *)dict;
 
+/// 数组转json字符串方法
++ (NSString *)zx_jsonStringWithArray:(NSArray *)array;
+
 @end
 
 NS_ASSUME_NONNULL_END

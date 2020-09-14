@@ -25,6 +25,18 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSInteger)compareVersion1:(NSString *)version1 version2:(NSString *)version2;
 - (NSInteger)compareVersion1:(NSString *)version1 version2:(NSString *)version2;
+
+/*!
+ * 对象序列成字典
+ *
+ * @param obj 需要序列化的对象
+ *
+ * @return 字典
+ */
++ (NSDictionary*)zx_getDictionaryFromObject:(id)obj;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END
