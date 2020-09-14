@@ -10,7 +10,7 @@
 @implementation NSDictionary (Extension)
 
 /// JSON字符串转化为字典
-+ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString
++ (NSDictionary *)zx_dictionaryWithJsonString:(NSString *)jsonString
 {
     if (jsonString == nil) {
         return nil;

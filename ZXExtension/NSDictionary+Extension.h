@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (Extension)
 
-+ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
++ (NSDictionary *)zx_dictionaryWithJsonString:(NSString *)jsonString;
 
 @end
 
