@@ -11,6 +11,7 @@
 #endif
 
 #import "NSArray+Extension.h"
+#import "NSDictionary+Extension.h"
 #import "NSObject+Extension.h"
 #import "NSObject+JSON.h"
 #import "NSObject+Macro.h"

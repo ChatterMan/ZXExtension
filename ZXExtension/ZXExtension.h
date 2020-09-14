@@ -30,7 +30,7 @@
     #import <ZXExtension/UIView+Extension.h>
     #import <ZXExtension/UIViewController+Extension.h>
     #import <ZXExtension/NSObject+JSON.h>
-
+    #import <ZXExtension/NSDictionary+Extension.h>
 #else
     
     #import "NSArray+Extension.h"
@@ -47,6 +47,7 @@
     #import "UIView+Extension.h"
     #import "UIViewController+Extension.h"
     #import "NSObject+JSON.h"
+    #import "NSDictionary+Extension.h"
 
 #endif /* __has_include */
 

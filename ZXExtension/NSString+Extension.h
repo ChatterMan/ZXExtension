@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 把该字符串转换为对应的 md5
 @property(readonly, copy) NSString *zx_md5;
 
+/// 字典转json字符串方法
++ (NSString *)zx_jsonStringWithDictionary:(NSDictionary *)dict;
+
 @end
 
 NS_ASSUME_NONNULL_END
