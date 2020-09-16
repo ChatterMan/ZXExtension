@@ -37,12 +37,10 @@
 
 #pragma mark - 控制台打印
 #ifdef DEBUG
-#define NSLog(...) NSLog(__VA_ARGS__)
 #define ZXLog(fmt, ...) NSLog((@"\n[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__)
 //#define ZXLog(fmt, ...) NSLog((@"\n[函数名:%s]\n" fmt), __FUNCTION__, ##__VA_ARGS__)
 #else
 #define ZXLog(...) NSLog(...)
-#define NSLog(...)
 #endif
 
 
