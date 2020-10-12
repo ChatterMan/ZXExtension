@@ -22,6 +22,8 @@
 		47DF8BB82E685FEBC0209697634DFA07 /* UICollectionView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71C8C8ABD490281536BFBCE552965A /* UICollectionView+Extension.m */; };
 		48925E5552F9EFC00B20119C7232550A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 557F4BF10D7DA69A287B3C3D0EA65F8E /* UIImage+Extension.m */; };
 		4FF157278C42F6B09921ABD77DF36B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		50EBD491253425AE00EA9A1E /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EBD48F253425AE00EA9A1E /* UIButton+Extension.h */; };
+		50EBD492253425AE00EA9A1E /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EBD490253425AE00EA9A1E /* UIButton+Extension.m */; };
 		5705EC608C3F18730A12A4707E6CDB2B /* NSParagraphStyle+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DE46CC322CE94398F9752A563CFA6031 /* NSParagraphStyle+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59CCDF1CB23D2E0FAF4DE5F53867EDCB /* Pods-ZXExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70AFCEFC500E8AC9EEB128E4FEEC29E /* Pods-ZXExtension_Example-dummy.m */; };
 		67FD90DF4749439BAD18D94E38ED603E /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D56C9CD9688AA8684B51C2D424A981D /* NSObject+Extension.m */; };
@@ -67,7 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028EA13E796DCFDA430E2838BABCE742 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		028EA13E796DCFDA430E2838BABCE742 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		13E7D04CC14A2726A0853AC525E41C4C /* Pods-ZXExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		175721C7ED22361955665B24960B831A /* ZXExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXExtension-umbrella.h"; sourceTree = "<group>"; };
 		1EF3AC0FE984917329D09E87718E3BCA /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "ZXExtension/UIColor+Extension.m"; sourceTree = "<group>"; };
@@ -76,14 +78,16 @@
 		30AD37E09A7DB247AC57AE8AB7AE7BEB /* NSDictionary+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extension.h"; path = "ZXExtension/NSDictionary+Extension.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35B9C18DCA1EB0D4539ACA021FB57EFD /* UICollectionView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+Extension.h"; path = "ZXExtension/UICollectionView+Extension.h"; sourceTree = "<group>"; };
-		38F871EDAEED1D60DEE40ECFDECF401D /* Pods_ZXExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZXExtension_Example.framework; path = "Pods-ZXExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F871EDAEED1D60DEE40ECFDECF401D /* Pods_ZXExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B0386F2B6CD02A5EEFC640ADE166C9 /* NSObject+Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Macro.h"; path = "ZXExtension/NSObject+Macro.h"; sourceTree = "<group>"; };
 		42E38DA24116442582690126E50874F5 /* Pods-ZXExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZXExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		43571936D176DCC9D7F693F9CCE44C74 /* NSURL+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Extension.h"; path = "ZXExtension/NSURL+Extension.h"; sourceTree = "<group>"; };
 		44C20368739C92198C98489AC594C115 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "ZXExtension/NSString+Extension.m"; sourceTree = "<group>"; };
 		4CAAEB9C29B50341E6516F10184C6E99 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "ZXExtension/NSString+Extension.h"; sourceTree = "<group>"; };
-		4EE35D441D5F4664EE71E7C423BAB25B /* Pods_ZXExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZXExtension_Tests.framework; path = "Pods-ZXExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE35D441D5F4664EE71E7C423BAB25B /* Pods_ZXExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF78DA9DC2DE2391DF3C40DF92C2332 /* UIViewController+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Extension.m"; path = "ZXExtension/UIViewController+Extension.m"; sourceTree = "<group>"; };
+		50EBD48F253425AE00EA9A1E /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extension.h"; path = "ZXExtension/UIButton+Extension.h"; sourceTree = "<group>"; };
+		50EBD490253425AE00EA9A1E /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extension.m"; path = "ZXExtension/UIButton+Extension.m"; sourceTree = "<group>"; };
 		53D380ADA96EBB285E060233DF0C9E43 /* Pods-ZXExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		557F4BF10D7DA69A287B3C3D0EA65F8E /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "ZXExtension/UIImage+Extension.m"; sourceTree = "<group>"; };
 		599F0031C346A737DB9FCCC029990C75 /* Pods-ZXExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZXExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -102,7 +106,7 @@
 		956300FD02DE70244F033D05E4EED83A /* Pods-ZXExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		987B07612D57D2B14BA194FE96262007 /* Pods-ZXExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BFA5BB8C83833222EC09C8B695E5FE2 /* NSObject+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "ZXExtension/NSObject+JSON.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE749789FF7A8EFE57363511D4D1B5B /* ZXExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZXExtension.modulemap; sourceTree = "<group>"; };
 		9E5C7EF4A753C2674FCD6597E5DADE77 /* Pods-ZXExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZXExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A324F5425F99CE294E18343F70850E9E /* NSParagraphStyle+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+Extension.m"; path = "ZXExtension/NSParagraphStyle+Extension.m"; sourceTree = "<group>"; };
@@ -115,8 +119,8 @@
 		B5731F403FB014661E4E2BF91670917B /* Pods-ZXExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZXExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		BCC36AC779AAB043213FD2A097891742 /* Pods-ZXExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZXExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C006E35C592721E1415F99D6BB005B8B /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "ZXExtension/UIView+Extension.m"; sourceTree = "<group>"; };
-		C4661FB6244B2D441B2FAD1C63BF2A06 /* ZXExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZXExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C46D48DC5E9ED7941EF252EBC4DF8771 /* ZXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZXExtension.framework; path = ZXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4661FB6244B2D441B2FAD1C63BF2A06 /* ZXExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZXExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C46D48DC5E9ED7941EF252EBC4DF8771 /* ZXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBA2843F45CD783DB5EB6856DC9241C /* Pods-ZXExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZXExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		D32E9E0E00B8427E531B29E36BD00EDC /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "ZXExtension/NSObject+Extension.h"; sourceTree = "<group>"; };
 		D80C2069281390EC6C6D71B64062CFA4 /* UITableView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Extension.h"; path = "ZXExtension/UITableView+Extension.h"; sourceTree = "<group>"; };
@@ -126,7 +130,7 @@
 		DE46CC322CE94398F9752A563CFA6031 /* NSParagraphStyle+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+Extension.h"; path = "ZXExtension/NSParagraphStyle+Extension.h"; sourceTree = "<group>"; };
 		E40F7CFAE27E0867BB64D94DDB97745E /* ZXExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXExtension.debug.xcconfig; sourceTree = "<group>"; };
 		F0127B349BF645B04229ED8D52E01077 /* NSArray+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extension.h"; path = "ZXExtension/NSArray+Extension.h"; sourceTree = "<group>"; };
-		F588A5350FAC4F6ABF74BD532587438B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F588A5350FAC4F6ABF74BD532587438B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F70AFCEFC500E8AC9EEB128E4FEEC29E /* Pods-ZXExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZXExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		FB9ED6AFCBC595086F306F3CF382BF63 /* ZXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXExtension.h; path = ZXExtension/ZXExtension.h; sourceTree = "<group>"; };
 		FC82DE7A1FB7C1A973BA11EF54979F5C /* Pods-ZXExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZXExtension_Tests.modulemap"; sourceTree = "<group>"; };
@@ -227,6 +231,10 @@
 				44C20368739C92198C98489AC594C115 /* NSString+Extension.m */,
 				43571936D176DCC9D7F693F9CCE44C74 /* NSURL+Extension.h */,
 				7E83964609BD26F74E27E675F84B05FA /* NSURL+Extension.m */,
+				B33B331ED8E5FBEF7B9135077F81D5AA /* Pod */,
+				053035EFF5E3F8673895310677FF322B /* Support Files */,
+				50EBD48F253425AE00EA9A1E /* UIButton+Extension.h */,
+				50EBD490253425AE00EA9A1E /* UIButton+Extension.m */,
 				35B9C18DCA1EB0D4539ACA021FB57EFD /* UICollectionView+Extension.h */,
 				2F71C8C8ABD490281536BFBCE552965A /* UICollectionView+Extension.m */,
 				DCEF94B398AEC8EAED30BC5ABB4D9ED8 /* UIColor+Extension.h */,
@@ -242,8 +250,6 @@
 				A9550C641E99C345DAF4C95F79934228 /* UIViewController+Extension.h */,
 				4EF78DA9DC2DE2391DF3C40DF92C2332 /* UIViewController+Extension.m */,
 				FB9ED6AFCBC595086F306F3CF382BF63 /* ZXExtension.h */,
-				B33B331ED8E5FBEF7B9135077F81D5AA /* Pod */,
-				053035EFF5E3F8673895310677FF322B /* Support Files */,
 			);
 			name = ZXExtension;
 			path = ../..;
@@ -320,6 +326,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50EBD491253425AE00EA9A1E /* UIButton+Extension.h in Headers */,
 				8619DAB471EFCB0AD46355F8B2D96B32 /* NSArray+Extension.h in Headers */,
 				FAF4C7B54994124645D1AA84CF2F8757 /* NSDictionary+Extension.h in Headers */,
 				BF2E5108363B6566DD7566CE9196C394 /* NSObject+Extension.h in Headers */,
@@ -477,6 +484,7 @@
 				695DBD2634F166436EC70E4E5BACE2E3 /* NSDictionary+Extension.m in Sources */,
 				67FD90DF4749439BAD18D94E38ED603E /* NSObject+Extension.m in Sources */,
 				292AAC1F5D50BD428729357AD7EAB92D /* NSObject+JSON.m in Sources */,
+				50EBD492253425AE00EA9A1E /* UIButton+Extension.m in Sources */,
 				762C3402D1A5E0E2AF6C0020A176BE6B /* NSObject+Macro.m in Sources */,
 				1214335FDB412FE2225C5E7FABA71357 /* NSParagraphStyle+Extension.m in Sources */,
 				3467B409F2CAB6A1284B6DA725199EBE /* NSString+Extension.m in Sources */,
@@ -775,8 +783,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
